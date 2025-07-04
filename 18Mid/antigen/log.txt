@@ -1,0 +1,1907 @@
+
+Standard Output:
+Step 1 : Start reading model...
+Step 2 : Start reading glycosylation sites...
+Step 3 : Predciton ...
+Step 1 : Start reading model...
+Step 2 : Start reading glycosylation sites...
+Step 3 : Predciton ...
+	...Matrix...
+Step 1 : Start reading model...
+Step 2 : Start reading glycosylation sites...
+Step 3 : Predciton ...
+Step 1 : Start reading model...
+Step 2 : Start reading glycosylation sites...
+Step 3 : Predciton ...
+Step 1 : Start reading model...
+Step 2 : Start reading glycosylation sites...
+Step 3 : Predciton ...
+Step 1 : Start reading model...
+Step 2 : Start reading glycosylation sites...
+Step 3 : Predciton ...
+	...Matrix...
+Step 1 : Start reading model...
+Step 2 : Start reading glycosylation sites...
+Step 3 : Predciton ...
+The file test_files/test5 is not in FASTA format or could not be correctly parsed.
+读入文件：test_files/isolate1.fasta
+输出文件：/usr/local/lib/python3.6/site-packages/temp/isolate1.fasta.stdName
+blastSeq ...
+Warning: [blastp] Number of threads was reduced to 2 to match the number of available CPUs
+getMostCommonHitProtein ...
+blastSeq ...
+Warning: [blastp] Number of threads was reduced to 2 to match the number of available CPUs
+getMostCommonHitProtein ...
+getMostCommonHitProtein ...
+list index out of range
+./result/isolate1.fasta.result
+./result
+Annotation written to ./result/isolate1_annotation.csv
+读入文件：test_files/test4.fasta
+输出文件：/usr/local/lib/python3.6/site-packages/temp/test4.fasta.stdName
+blastSeq ...
+Warning: [blastp] Number of threads was reduced to 2 to match the number of available CPUs
+getMostCommonHitProtein ...
+blastSeq ...
+Warning: [blastp] Number of threads was reduced to 2 to match the number of available CPUs
+getMostCommonHitProtein ...
+getMostCommonHitProtein ...
+list index out of range
+list index out of range
+./result/test4.fasta.result
+./result
+Annotation written to ./result/test4_annotation.csv
+读入文件：test_files/test2.fa
+输出文件：/usr/local/lib/python3.6/site-packages/temp/test2.fa.stdName
+blastSeq ...
+Warning: [blastp] Number of threads was reduced to 2 to match the number of available CPUs
+getMostCommonHitProtein ...
+blastSeq ...
+Warning: [blastp] Number of threads was reduced to 2 to match the number of available CPUs
+getMostCommonHitProtein ...
+getMostCommonHitProtein ...
+list index out of range
+list index out of range
+./result/test2.fa.result
+./result
+Annotation written to ./result/test2_annotation.csv
+读入文件：test_files/test3
+输出文件：/usr/local/lib/python3.6/site-packages/temp/test3.stdName
+blastSeq ...
+Warning: [blastp] Number of threads was reduced to 2 to match the number of available CPUs
+getMostCommonHitProtein ...
+blastSeq ...
+Warning: [blastp] Number of threads was reduced to 2 to match the number of available CPUs
+getMostCommonHitProtein ...
+getMostCommonHitProtein ...
+list index out of range
+./result/test3.result
+./result
+Annotation written to ./result/test3_annotation.csv
+读入文件：test_files/test1.fasta
+输出文件：/usr/local/lib/python3.6/site-packages/temp/test1.fasta.stdName
+blastSeq ...
+Warning: [blastp] Number of threads was reduced to 2 to match the number of available CPUs
+getMostCommonHitProtein ...
+blastSeq ...
+Warning: [blastp] Number of threads was reduced to 2 to match the number of available CPUs
+getMostCommonHitProtein ...
+getMostCommonHitProtein ...
+list index out of range
+./result/test1.fasta.result
+./result
+Annotation written to ./result/test1_annotation.csv
+
+Standard Error:
+
+nseq =  21
+distance =  ktuples
+iterate =  0
+cycle =  1
+nthread = 0
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, +0.00
+
+tuplesize = 6, dorp = p
+
+
+Making a distance matrix ..
+
+    1 / 21
+   11 / 21
+   21 / 21
+done.
+
+Constructing a UPGMA tree ... 
+
+    0 / 21
+   10 / 21
+done.
+
+Progressive alignment ... 
+
+STEP     1 / 20 f
+STEP     2 / 20 f
+STEP     3 / 20 f
+STEP     4 / 20 f
+STEP     5 / 20 f
+STEP     6 / 20 f
+STEP     7 / 20 f
+STEP     8 / 20 f
+STEP     9 / 20 f
+STEP    10 / 20 f
+STEP    11 / 20 f
+STEP    12 / 20 f
+STEP    13 / 20 f
+STEP    14 / 20 f
+STEP    15 / 20 f
+STEP    16 / 20 f
+STEP    17 / 20 f
+STEP    18 / 20 f
+STEP    19 / 20 f
+STEP    20 / 20 f
+done.
+
+disttbfast (aa) Version 7.158b alg=A, model=BLOSUM62, 1.53, -0.00, -0.00, noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ FFT-NS-1 (Very fast but very rough)
+ Progressive method (rough guide tree was used.)
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --legacygappenalty option.
+
+
+nseq =  25
+distance =  ktuples
+iterate =  0
+cycle =  1
+nthread = 0
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, +0.00
+
+tuplesize = 6, dorp = p
+
+
+Making a distance matrix ..
+
+    1 / 25
+   11 / 25
+   21 / 25
+done.
+
+Constructing a UPGMA tree ... 
+
+    0 / 25
+   10 / 25
+   20 / 25
+done.
+
+Progressive alignment ... 
+
+STEP     1 / 24 f
+STEP     2 / 24 f
+STEP     3 / 24 f
+STEP     4 / 24 f
+STEP     5 / 24 f
+STEP     6 / 24 f
+STEP     7 / 24 f
+STEP     8 / 24 f
+STEP     9 / 24 f
+STEP    10 / 24 f
+STEP    11 / 24 f
+STEP    12 / 24 f
+STEP    13 / 24 f
+STEP    14 / 24 f
+STEP    15 / 24 f
+STEP    16 / 24 f
+STEP    17 / 24 f
+STEP    18 / 24 f
+STEP    19 / 24 f
+STEP    20 / 24 f
+STEP    21 / 24 f
+STEP    22 / 24 f
+STEP    23 / 24 f
+STEP    24 / 24 f
+done.
+
+disttbfast (aa) Version 7.158b alg=A, model=BLOSUM62, 1.53, -0.00, -0.00, noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ FFT-NS-1 (Very fast but very rough)
+ Progressive method (rough guide tree was used.)
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --legacygappenalty option.
+
+
+nseq =  70
+distance =  ktuples
+iterate =  0
+cycle =  1
+nthread = 0
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, +0.00
+
+tuplesize = 6, dorp = p
+
+
+Making a distance matrix ..
+
+    1 / 70
+   11 / 70
+   21 / 70
+   31 / 70
+   41 / 70
+   51 / 70
+   61 / 70
+done.
+
+Constructing a UPGMA tree ... 
+
+    0 / 70
+   10 / 70
+   20 / 70
+   30 / 70
+   40 / 70
+   50 / 70
+   60 / 70
+done.
+
+Progressive alignment ... 
+
+STEP     1 / 69 f
+STEP     2 / 69 f
+STEP     3 / 69 f
+STEP     4 / 69 f
+STEP     5 / 69 f
+STEP     6 / 69 f
+STEP     7 / 69 f
+STEP     8 / 69 f
+STEP     9 / 69 f
+STEP    10 / 69 f
+STEP    11 / 69 f
+STEP    12 / 69 f
+STEP    13 / 69 f
+STEP    14 / 69 f
+STEP    15 / 69 f
+STEP    16 / 69 f
+STEP    17 / 69 f
+STEP    18 / 69 f
+STEP    19 / 69 f
+STEP    20 / 69 f
+STEP    21 / 69 f
+STEP    22 / 69 f
+STEP    23 / 69 f
+STEP    24 / 69 f
+STEP    25 / 69 f
+STEP    26 / 69 f
+STEP    27 / 69 f
+STEP    28 / 69 f
+STEP    29 / 69 f
+STEP    30 / 69 f
+STEP    31 / 69 f
+STEP    32 / 69 f
+STEP    33 / 69 f
+STEP    34 / 69 f
+STEP    35 / 69 f
+STEP    36 / 69 f
+STEP    37 / 69 f
+STEP    38 / 69 f
+STEP    39 / 69 f
+STEP    40 / 69 f
+STEP    41 / 69 f
+STEP    42 / 69 f
+STEP    43 / 69 f
+STEP    44 / 69 f
+STEP    45 / 69 f
+STEP    46 / 69 f
+STEP    47 / 69 f
+STEP    48 / 69 f
+STEP    49 / 69 f
+STEP    50 / 69 f
+STEP    51 / 69 f
+STEP    52 / 69 f
+STEP    53 / 69 f
+STEP    54 / 69 f
+STEP    55 / 69 f
+STEP    56 / 69 f
+STEP    57 / 69 f
+STEP    58 / 69 f
+STEP    59 / 69 f
+STEP    60 / 69 f
+STEP    61 / 69 f
+STEP    62 / 69 f
+STEP    63 / 69 f
+STEP    64 / 69 f
+STEP    65 / 69 f
+STEP    66 / 69 f
+STEP    67 / 69 f
+STEP    68 / 69 f
+STEP    69 / 69 f
+done.
+
+disttbfast (aa) Version 7.158b alg=A, model=BLOSUM62, 1.53, -0.00, -0.00, noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ FFT-NS-1 (Very fast but very rough)
+ Progressive method (rough guide tree was used.)
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --legacygappenalty option.
+
+
+nseq =  112
+distance =  ktuples
+iterate =  0
+cycle =  1
+nthread = 0
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, +0.00
+
+tuplesize = 6, dorp = p
+
+
+Making a distance matrix ..
+
+WARNING : 4 unknown characters
+
+    1 / 112
+   11 / 112
+   21 / 112
+   31 / 112
+   41 / 112
+   51 / 112
+   61 / 112
+   71 / 112
+   81 / 112
+   91 / 112
+  101 / 112
+  111 / 112
+done.
+
+Constructing a UPGMA tree ... 
+
+    0 / 112
+   10 / 112
+   20 / 112
+   30 / 112
+   40 / 112
+   50 / 112
+   60 / 112
+   70 / 112
+   80 / 112
+   90 / 112
+  100 / 112
+  110 / 112
+done.
+
+Progressive alignment ... 
+
+STEP     1 / 111 f
+STEP     2 / 111 f
+STEP     3 / 111 f
+STEP     4 / 111 f
+STEP     5 / 111 f
+STEP     6 / 111 f
+STEP     7 / 111 f
+STEP     8 / 111 f
+STEP     9 / 111 f
+STEP    10 / 111 f
+STEP    11 / 111 f
+STEP    12 / 111 f
+STEP    13 / 111 f
+STEP    14 / 111 f
+STEP    15 / 111 f
+STEP    16 / 111 f
+STEP    17 / 111 f
+STEP    18 / 111 f
+STEP    19 / 111 f
+STEP    20 / 111 f
+STEP    21 / 111 f
+STEP    22 / 111 f
+STEP    23 / 111 f
+STEP    24 / 111 f
+STEP    25 / 111 f
+STEP    26 / 111 f
+STEP    27 / 111 f
+STEP    28 / 111 f
+STEP    29 / 111 f
+STEP    30 / 111 f
+STEP    31 / 111 f
+STEP    32 / 111 f
+STEP    33 / 111 f
+STEP    34 / 111 f
+STEP    35 / 111 f
+STEP    36 / 111 f
+STEP    37 / 111 f
+STEP    38 / 111 f
+STEP    39 / 111 f
+STEP    40 / 111 f
+STEP    41 / 111 f
+STEP    42 / 111 f
+STEP    43 / 111 f
+STEP    44 / 111 f
+STEP    45 / 111 f
+STEP    46 / 111 f
+STEP    47 / 111 f
+STEP    48 / 111 f
+STEP    49 / 111 f
+STEP    50 / 111 f
+STEP    51 / 111 f
+STEP    52 / 111 f
+STEP    53 / 111 f
+STEP    54 / 111 f
+STEP    55 / 111 f
+STEP    56 / 111 f
+STEP    57 / 111 f
+STEP    58 / 111 f
+STEP    59 / 111 f
+STEP    60 / 111 f
+STEP    61 / 111 f
+STEP    62 / 111 f
+STEP    63 / 111 f
+STEP    64 / 111 f
+STEP    65 / 111 f
+STEP    66 / 111 f
+STEP    67 / 111 f
+STEP    68 / 111 f
+STEP    69 / 111 f
+STEP    70 / 111 f
+STEP    71 / 111 f
+STEP    72 / 111 f
+STEP    73 / 111 f
+STEP    74 / 111 f
+STEP    75 / 111 f
+STEP    76 / 111 f
+STEP    77 / 111 f
+STEP    78 / 111 f
+STEP    79 / 111 f
+STEP    80 / 111 f
+STEP    81 / 111 f
+STEP    82 / 111 f
+STEP    83 / 111 f
+STEP    84 / 111 f
+STEP    85 / 111 f
+STEP    86 / 111 f
+STEP    87 / 111 f
+STEP    88 / 111 f
+STEP    89 / 111 f
+STEP    90 / 111 f
+STEP    91 / 111 f
+STEP    92 / 111 f
+STEP    93 / 111 f
+STEP    94 / 111 f
+STEP    95 / 111 f
+STEP    96 / 111 f
+STEP    97 / 111 f
+STEP    98 / 111 f
+STEP    99 / 111 f
+STEP   100 / 111 f
+STEP   101 / 111 f
+STEP   102 / 111 f
+STEP   103 / 111 f
+STEP   104 / 111 f
+STEP   105 / 111 f
+STEP   106 / 111 f
+STEP   107 / 111 f
+STEP   108 / 111 f
+STEP   109 / 111 f
+STEP   110 / 111 f
+STEP   111 / 111 f
+done.
+
+disttbfast (aa) Version 7.158b alg=A, model=BLOSUM62, 1.53, -0.00, -0.00, noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ FFT-NS-1 (Very fast but very rough)
+ Progressive method (rough guide tree was used.)
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --legacygappenalty option.
+
+Use of uninitialized value $changes[0] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[1] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[2] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[3] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[4] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[5] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[6] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[7] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[8] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[9] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[10] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[0] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[1] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[2] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[3] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[4] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[5] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[6] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[7] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[8] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[9] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[0] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[2] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[2] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[1] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[0] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[4] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[4] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[1] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[4] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[2] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[4] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[3] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[6] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[8] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[8] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[7] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[6] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[10] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[10] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[7] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[10] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[8] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[10] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[9] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[0] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[6] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[6] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[1] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[6] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[2] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[6] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[3] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[6] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[4] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[6] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[5] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $_ in addition (+) at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 851.
+Use of uninitialized value $_ in addition (+) at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 851.
+Use of uninitialized value $_ in addition (+) at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 851.
+Use of uninitialized value $changes[0] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[1] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[2] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[3] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[4] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[5] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[6] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[7] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[8] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[9] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[10] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[11] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[12] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[13] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[0] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[1] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[2] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[3] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[4] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[5] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[6] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[7] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[8] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[9] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[10] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[11] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[12] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[13] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[0] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[2] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[2] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[1] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[4] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[6] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[6] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[5] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[0] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[4] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[4] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[1] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[4] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[2] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[4] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[3] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[8] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[10] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[10] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[9] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[8] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[12] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[12] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[9] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[12] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[10] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[12] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[11] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[0] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[8] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[8] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[1] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[8] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[2] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[8] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[3] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[8] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[4] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[8] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[5] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[8] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[6] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[8] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[7] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $_ in addition (+) at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 851.
+Use of uninitialized value $_ in addition (+) at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 851.
+Use of uninitialized value $_ in addition (+) at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 851.
+Use of uninitialized value $changes[0] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[1] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[2] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[3] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[4] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[5] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[6] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[7] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[0] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[1] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[2] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[3] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[4] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[5] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[6] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[7] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[0] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[2] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[2] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[1] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[4] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[6] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[6] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[5] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[0] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[4] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[4] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[1] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[4] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[2] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[4] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[3] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $_ in addition (+) at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 851.
+Use of uninitialized value $_ in addition (+) at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 851.
+Use of uninitialized value $_ in addition (+) at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 851.
+Use of uninitialized value $changes[0] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[1] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[2] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[3] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[4] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[5] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[6] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[7] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[8] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[0] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[1] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[2] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[3] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[4] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[5] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[6] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[7] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[0] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[2] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[2] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[1] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[0] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[4] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[4] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[1] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[4] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[2] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[4] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[3] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[6] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[8] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[8] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[7] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[0] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[6] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[6] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[1] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[6] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[2] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[6] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[3] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[6] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[4] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[6] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[5] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $_ in addition (+) at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 851.
+Use of uninitialized value $_ in addition (+) at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 851.
+Use of uninitialized value $_ in addition (+) at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 851.
+Use of uninitialized value $changes[0] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[1] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[2] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[3] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[4] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[5] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[0] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[1] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[2] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[3] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[4] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[5] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[0] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[2] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[2] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[1] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[0] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[4] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[4] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[1] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[4] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[2] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[4] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[3] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $_ in addition (+) at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 851.
+Use of uninitialized value $_ in addition (+) at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 851.
+Use of uninitialized value $_ in addition (+) at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 851.
+Use of uninitialized value $changes[0] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[1] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[2] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[3] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[4] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[5] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[6] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[0] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[1] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[2] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[3] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[4] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[5] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[0] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[2] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[2] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[1] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[4] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[6] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[6] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[5] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[0] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[4] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[4] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[1] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[4] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[2] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[4] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[3] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $_ in addition (+) at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 851.
+Use of uninitialized value $_ in addition (+) at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 851.
+Use of uninitialized value $_ in addition (+) at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 851.
+Use of uninitialized value in numeric gt (>) at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 232.
+Use of uninitialized value in numeric gt (>) at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 232.
+Use of uninitialized value $prior in multiplication (*) at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 240.
+Use of uninitialized value in numeric gt (>) at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 232.
+Use of uninitialized value in numeric gt (>) at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 232.
+Use of uninitialized value $prior in multiplication (*) at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 240.
+Use of uninitialized value in numeric gt (>) at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 232.
+Use of uninitialized value in numeric gt (>) at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 232.
+Use of uninitialized value $prior in multiplication (*) at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 240.
+Use of uninitialized value in numeric gt (>) at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 232.
+Use of uninitialized value in numeric gt (>) at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 232.
+Use of uninitialized value $prior in multiplication (*) at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 240.
+Use of uninitialized value in numeric gt (>) at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 232.
+Use of uninitialized value in numeric gt (>) at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 232.
+Use of uninitialized value $prior in multiplication (*) at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 240.
+Use of uninitialized value in numeric gt (>) at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 232.
+Use of uninitialized value in numeric gt (>) at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 232.
+Use of uninitialized value $prior in multiplication (*) at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 240.
+
+nseq =  70
+distance =  ktuples
+iterate =  0
+cycle =  1
+nthread = 0
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, +0.00
+
+tuplesize = 6, dorp = p
+
+
+Making a distance matrix ..
+
+    1 / 70
+   11 / 70
+   21 / 70
+   31 / 70
+   41 / 70
+   51 / 70
+   61 / 70
+done.
+
+Constructing a UPGMA tree ... 
+
+    0 / 70
+   10 / 70
+   20 / 70
+   30 / 70
+   40 / 70
+   50 / 70
+   60 / 70
+done.
+
+Progressive alignment ... 
+
+STEP     1 / 69 f
+STEP     2 / 69 f
+STEP     3 / 69 f
+STEP     4 / 69 f
+STEP     5 / 69 f
+STEP     6 / 69 f
+STEP     7 / 69 f
+STEP     8 / 69 f
+STEP     9 / 69 f
+STEP    10 / 69 f
+STEP    11 / 69 f
+STEP    12 / 69 f
+STEP    13 / 69 f
+STEP    14 / 69 f
+STEP    15 / 69 f
+STEP    16 / 69 f
+STEP    17 / 69 f
+STEP    18 / 69 f
+STEP    19 / 69 f
+STEP    20 / 69 f
+STEP    21 / 69 f
+STEP    22 / 69 f
+STEP    23 / 69 f
+STEP    24 / 69 f
+STEP    25 / 69 f
+STEP    26 / 69 f
+STEP    27 / 69 f
+STEP    28 / 69 f
+STEP    29 / 69 f
+STEP    30 / 69 f
+STEP    31 / 69 f
+STEP    32 / 69 f
+STEP    33 / 69 f
+STEP    34 / 69 f
+STEP    35 / 69 f
+STEP    36 / 69 f
+STEP    37 / 69 f
+STEP    38 / 69 f
+STEP    39 / 69 f
+STEP    40 / 69 f
+STEP    41 / 69 f
+STEP    42 / 69 f
+STEP    43 / 69 f
+STEP    44 / 69 f
+STEP    45 / 69 f
+STEP    46 / 69 f
+STEP    47 / 69 f
+STEP    48 / 69 f
+STEP    49 / 69 f
+STEP    50 / 69 f
+STEP    51 / 69 f
+STEP    52 / 69 f
+STEP    53 / 69 f
+STEP    54 / 69 f
+STEP    55 / 69 f
+STEP    56 / 69 f
+STEP    57 / 69 f
+STEP    58 / 69 f
+STEP    59 / 69 f
+STEP    60 / 69 f
+STEP    61 / 69 f
+STEP    62 / 69 f
+STEP    63 / 69 f
+STEP    64 / 69 f
+STEP    65 / 69 f
+STEP    66 / 69 f
+STEP    67 / 69 f
+STEP    68 / 69 f
+STEP    69 / 69 f
+done.
+
+disttbfast (aa) Version 7.158b alg=A, model=BLOSUM62, 1.53, -0.00, -0.00, noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ FFT-NS-1 (Very fast but very rough)
+ Progressive method (rough guide tree was used.)
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --legacygappenalty option.
+
+
+nseq =  74
+distance =  ktuples
+iterate =  0
+cycle =  1
+nthread = 0
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, +0.00
+
+tuplesize = 6, dorp = p
+
+
+Making a distance matrix ..
+
+    1 / 74
+   11 / 74
+   21 / 74
+   31 / 74
+   41 / 74
+   51 / 74
+   61 / 74
+   71 / 74
+done.
+
+Constructing a UPGMA tree ... 
+
+    0 / 74
+   10 / 74
+   20 / 74
+   30 / 74
+   40 / 74
+   50 / 74
+   60 / 74
+   70 / 74
+done.
+
+Progressive alignment ... 
+
+STEP     1 / 73 f
+STEP     2 / 73 f
+STEP     3 / 73 f
+STEP     4 / 73 f
+STEP     5 / 73 f
+STEP     6 / 73 f
+STEP     7 / 73 f
+STEP     8 / 73 f
+STEP     9 / 73 f
+STEP    10 / 73 f
+STEP    11 / 73 f
+STEP    12 / 73 f
+STEP    13 / 73 f
+STEP    14 / 73 f
+STEP    15 / 73 f
+STEP    16 / 73 f
+STEP    17 / 73 f
+STEP    18 / 73 f
+STEP    19 / 73 f
+STEP    20 / 73 f
+STEP    21 / 73 f
+STEP    22 / 73 f
+STEP    23 / 73 f
+STEP    24 / 73 f
+STEP    25 / 73 f
+STEP    26 / 73 f
+STEP    27 / 73 f
+STEP    28 / 73 f
+STEP    29 / 73 f
+STEP    30 / 73 f
+STEP    31 / 73 f
+STEP    32 / 73 f
+STEP    33 / 73 f
+STEP    34 / 73 f
+STEP    35 / 73 f
+STEP    36 / 73 f
+STEP    37 / 73 f
+STEP    38 / 73 f
+STEP    39 / 73 f
+STEP    40 / 73 f
+STEP    41 / 73 f
+STEP    42 / 73 f
+STEP    43 / 73 f
+STEP    44 / 73 f
+STEP    45 / 73 f
+STEP    46 / 73 f
+STEP    47 / 73 f
+STEP    48 / 73 f
+STEP    49 / 73 f
+STEP    50 / 73 f
+STEP    51 / 73 f
+STEP    52 / 73 f
+STEP    53 / 73 f
+STEP    54 / 73 f
+STEP    55 / 73 f
+STEP    56 / 73 f
+STEP    57 / 73 f
+STEP    58 / 73 f
+STEP    59 / 73 f
+STEP    60 / 73 f
+STEP    61 / 73 f
+STEP    62 / 73 f
+STEP    63 / 73 f
+STEP    64 / 73 f
+STEP    65 / 73 f
+STEP    66 / 73 f
+STEP    67 / 73 f
+STEP    68 / 73 f
+STEP    69 / 73 f
+STEP    70 / 73 f
+STEP    71 / 73 f
+STEP    72 / 73 f
+STEP    73 / 73 f
+done.
+
+disttbfast (aa) Version 7.158b alg=A, model=BLOSUM62, 1.53, -0.00, -0.00, noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ FFT-NS-1 (Very fast but very rough)
+ Progressive method (rough guide tree was used.)
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --legacygappenalty option.
+
+
+nseq =  67
+distance =  ktuples
+iterate =  0
+cycle =  1
+nthread = 0
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, +0.00
+
+tuplesize = 6, dorp = p
+
+
+Making a distance matrix ..
+
+WARNING : 6 unknown characters
+
+    1 / 67
+   11 / 67
+   21 / 67
+   31 / 67
+   41 / 67
+   51 / 67
+   61 / 67
+done.
+
+Constructing a UPGMA tree ... 
+
+    0 / 67
+   10 / 67
+   20 / 67
+   30 / 67
+   40 / 67
+   50 / 67
+   60 / 67
+done.
+
+Progressive alignment ... 
+
+STEP     1 / 66 f
+STEP     2 / 66 f
+STEP     3 / 66 f
+STEP     4 / 66 f
+STEP     5 / 66 f
+STEP     6 / 66 f
+STEP     7 / 66 f
+STEP     8 / 66 f
+STEP     9 / 66 f
+STEP    10 / 66 f
+STEP    11 / 66 f
+STEP    12 / 66 f
+STEP    13 / 66 f
+STEP    14 / 66 f
+STEP    15 / 66 f
+STEP    16 / 66 f
+STEP    17 / 66 f
+STEP    18 / 66 f
+STEP    19 / 66 f
+STEP    20 / 66 f
+STEP    21 / 66 f
+STEP    22 / 66 f
+STEP    23 / 66 f
+STEP    24 / 66 f
+STEP    25 / 66 f
+STEP    26 / 66 f
+STEP    27 / 66 f
+STEP    28 / 66 f
+STEP    29 / 66 f
+STEP    30 / 66 f
+STEP    31 / 66 f
+STEP    32 / 66 f
+STEP    33 / 66 f
+STEP    34 / 66 f
+STEP    35 / 66 f
+STEP    36 / 66 f
+STEP    37 / 66 f
+STEP    38 / 66 f
+STEP    39 / 66 f
+STEP    40 / 66 f
+STEP    41 / 66 f
+STEP    42 / 66 f
+STEP    43 / 66 f
+STEP    44 / 66 f
+STEP    45 / 66 f
+STEP    46 / 66 f
+STEP    47 / 66 f
+STEP    48 / 66 f
+STEP    49 / 66 f
+STEP    50 / 66 f
+STEP    51 / 66 f
+STEP    52 / 66 f
+STEP    53 / 66 f
+STEP    54 / 66 f
+STEP    55 / 66 f
+STEP    56 / 66 f
+STEP    57 / 66 f
+STEP    58 / 66 f
+STEP    59 / 66 f
+STEP    60 / 66 f
+STEP    61 / 66 f
+STEP    62 / 66 f
+STEP    63 / 66 f
+STEP    64 / 66 f
+STEP    65 / 66 f
+STEP    66 / 66 f
+done.
+
+disttbfast (aa) Version 7.158b alg=A, model=BLOSUM62, 1.53, -0.00, -0.00, noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ FFT-NS-1 (Very fast but very rough)
+ Progressive method (rough guide tree was used.)
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --legacygappenalty option.
+
+
+nseq =  109
+distance =  ktuples
+iterate =  0
+cycle =  1
+nthread = 0
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, +0.00
+
+tuplesize = 6, dorp = p
+
+
+Making a distance matrix ..
+
+WARNING : 9 unknown characters
+
+    1 / 109
+   11 / 109
+   21 / 109
+   31 / 109
+   41 / 109
+   51 / 109
+   61 / 109
+   71 / 109
+   81 / 109
+   91 / 109
+  101 / 109
+done.
+
+Constructing a UPGMA tree ... 
+
+    0 / 109
+   10 / 109
+   20 / 109
+   30 / 109
+   40 / 109
+   50 / 109
+   60 / 109
+   70 / 109
+   80 / 109
+   90 / 109
+  100 / 109
+done.
+
+Progressive alignment ... 
+
+STEP     1 / 108 f
+STEP     2 / 108 f
+STEP     3 / 108 f
+STEP     4 / 108 f
+STEP     5 / 108 f
+STEP     6 / 108 f
+STEP     7 / 108 f
+STEP     8 / 108 f
+STEP     9 / 108 f
+STEP    10 / 108 f
+STEP    11 / 108 f
+STEP    12 / 108 f
+STEP    13 / 108 f
+STEP    14 / 108 f
+STEP    15 / 108 f
+STEP    16 / 108 f
+STEP    17 / 108 f
+STEP    18 / 108 f
+STEP    19 / 108 f
+STEP    20 / 108 f
+STEP    21 / 108 f
+STEP    22 / 108 f
+STEP    23 / 108 f
+STEP    24 / 108 f
+STEP    25 / 108 f
+STEP    26 / 108 f
+STEP    27 / 108 f
+STEP    28 / 108 f
+STEP    29 / 108 f
+STEP    30 / 108 f
+STEP    31 / 108 f
+STEP    32 / 108 f
+STEP    33 / 108 f
+STEP    34 / 108 f
+STEP    35 / 108 f
+STEP    36 / 108 f
+STEP    37 / 108 f
+STEP    38 / 108 f
+STEP    39 / 108 f
+STEP    40 / 108 f
+STEP    41 / 108 f
+STEP    42 / 108 f
+STEP    43 / 108 f
+STEP    44 / 108 f
+STEP    45 / 108 f
+STEP    46 / 108 f
+STEP    47 / 108 f
+STEP    48 / 108 f
+STEP    49 / 108 f
+STEP    50 / 108 f
+STEP    51 / 108 f
+STEP    52 / 108 f
+STEP    53 / 108 f
+STEP    54 / 108 f
+STEP    55 / 108 f
+STEP    56 / 108 f
+STEP    57 / 108 f
+STEP    58 / 108 f
+STEP    59 / 108 f
+STEP    60 / 108 f
+STEP    61 / 108 f
+STEP    62 / 108 f
+STEP    63 / 108 f
+STEP    64 / 108 f
+STEP    65 / 108 f
+STEP    66 / 108 f
+STEP    67 / 108 f
+STEP    68 / 108 f
+STEP    69 / 108 f
+STEP    70 / 108 f
+STEP    71 / 108 f
+STEP    72 / 108 f
+STEP    73 / 108 f
+STEP    74 / 108 f
+STEP    75 / 108 f
+STEP    76 / 108 f
+STEP    77 / 108 f
+STEP    78 / 108 f
+STEP    79 / 108 f
+STEP    80 / 108 f
+STEP    81 / 108 f
+STEP    82 / 108 f
+STEP    83 / 108 f
+STEP    84 / 108 f
+STEP    85 / 108 f
+STEP    86 / 108 f
+STEP    87 / 108 f
+STEP    88 / 108 f
+STEP    89 / 108 f
+STEP    90 / 108 f
+STEP    91 / 108 f
+STEP    92 / 108 f
+STEP    93 / 108 f
+STEP    94 / 108 f
+STEP    95 / 108 f
+STEP    96 / 108 f
+STEP    97 / 108 f
+STEP    98 / 108 f
+STEP    99 / 108 f
+STEP   100 / 108 f
+STEP   101 / 108 f
+STEP   102 / 108 f
+STEP   103 / 108 f
+STEP   104 / 108 f
+STEP   105 / 108 f
+STEP   106 / 108 f
+STEP   107 / 108 f
+STEP   108 / 108 f
+done.
+
+disttbfast (aa) Version 7.158b alg=A, model=BLOSUM62, 1.53, -0.00, -0.00, noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ FFT-NS-1 (Very fast but very rough)
+ Progressive method (rough guide tree was used.)
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --legacygappenalty option.
+
+
+nseq =  67
+distance =  ktuples
+iterate =  0
+cycle =  1
+nthread = 0
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, +0.00
+
+tuplesize = 6, dorp = p
+
+
+Making a distance matrix ..
+
+WARNING : 6 unknown characters
+
+    1 / 67
+   11 / 67
+   21 / 67
+   31 / 67
+   41 / 67
+   51 / 67
+   61 / 67
+done.
+
+Constructing a UPGMA tree ... 
+
+    0 / 67
+   10 / 67
+   20 / 67
+   30 / 67
+   40 / 67
+   50 / 67
+   60 / 67
+done.
+
+Progressive alignment ... 
+
+STEP     1 / 66 f
+STEP     2 / 66 f
+STEP     3 / 66 f
+STEP     4 / 66 f
+STEP     5 / 66 f
+STEP     6 / 66 f
+STEP     7 / 66 f
+STEP     8 / 66 f
+STEP     9 / 66 f
+STEP    10 / 66 f
+STEP    11 / 66 f
+STEP    12 / 66 f
+STEP    13 / 66 f
+STEP    14 / 66 f
+STEP    15 / 66 f
+STEP    16 / 66 f
+STEP    17 / 66 f
+STEP    18 / 66 f
+STEP    19 / 66 f
+STEP    20 / 66 f
+STEP    21 / 66 f
+STEP    22 / 66 f
+STEP    23 / 66 f
+STEP    24 / 66 f
+STEP    25 / 66 f
+STEP    26 / 66 f
+STEP    27 / 66 f
+STEP    28 / 66 f
+STEP    29 / 66 f
+STEP    30 / 66 f
+STEP    31 / 66 f
+STEP    32 / 66 f
+STEP    33 / 66 f
+STEP    34 / 66 f
+STEP    35 / 66 f
+STEP    36 / 66 f
+STEP    37 / 66 f
+STEP    38 / 66 f
+STEP    39 / 66 f
+STEP    40 / 66 f
+STEP    41 / 66 f
+STEP    42 / 66 f
+STEP    43 / 66 f
+STEP    44 / 66 f
+STEP    45 / 66 f
+STEP    46 / 66 f
+STEP    47 / 66 f
+STEP    48 / 66 f
+STEP    49 / 66 f
+STEP    50 / 66 f
+STEP    51 / 66 f
+STEP    52 / 66 f
+STEP    53 / 66 f
+STEP    54 / 66 f
+STEP    55 / 66 f
+STEP    56 / 66 f
+STEP    57 / 66 f
+STEP    58 / 66 f
+STEP    59 / 66 f
+STEP    60 / 66 f
+STEP    61 / 66 f
+STEP    62 / 66 f
+STEP    63 / 66 f
+STEP    64 / 66 f
+STEP    65 / 66 f
+STEP    66 / 66 f
+done.
+
+disttbfast (aa) Version 7.158b alg=A, model=BLOSUM62, 1.53, -0.00, -0.00, noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ FFT-NS-1 (Very fast but very rough)
+ Progressive method (rough guide tree was used.)
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --legacygappenalty option.
+
+
+nseq =  71
+distance =  ktuples
+iterate =  0
+cycle =  1
+nthread = 0
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, +0.00
+
+tuplesize = 6, dorp = p
+
+
+Making a distance matrix ..
+
+WARNING : 6 unknown characters
+
+    1 / 71
+   11 / 71
+   21 / 71
+   31 / 71
+   41 / 71
+   51 / 71
+   61 / 71
+   71 / 71
+done.
+
+Constructing a UPGMA tree ... 
+
+    0 / 71
+   10 / 71
+   20 / 71
+   30 / 71
+   40 / 71
+   50 / 71
+   60 / 71
+done.
+
+Progressive alignment ... 
+
+STEP     1 / 70 f
+STEP     2 / 70 f
+STEP     3 / 70 f
+STEP     4 / 70 f
+STEP     5 / 70 f
+STEP     6 / 70 f
+STEP     7 / 70 f
+STEP     8 / 70 f
+STEP     9 / 70 f
+STEP    10 / 70 f
+STEP    11 / 70 f
+STEP    12 / 70 f
+STEP    13 / 70 f
+STEP    14 / 70 f
+STEP    15 / 70 f
+STEP    16 / 70 f
+STEP    17 / 70 f
+STEP    18 / 70 f
+STEP    19 / 70 f
+STEP    20 / 70 f
+STEP    21 / 70 f
+STEP    22 / 70 f
+STEP    23 / 70 f
+STEP    24 / 70 f
+STEP    25 / 70 f
+STEP    26 / 70 f
+STEP    27 / 70 f
+STEP    28 / 70 f
+STEP    29 / 70 f
+STEP    30 / 70 f
+STEP    31 / 70 f
+STEP    32 / 70 f
+STEP    33 / 70 f
+STEP    34 / 70 f
+STEP    35 / 70 f
+STEP    36 / 70 f
+STEP    37 / 70 f
+STEP    38 / 70 f
+STEP    39 / 70 f
+STEP    40 / 70 f
+STEP    41 / 70 f
+STEP    42 / 70 f
+STEP    43 / 70 f
+STEP    44 / 70 f
+STEP    45 / 70 f
+STEP    46 / 70 f
+STEP    47 / 70 f
+STEP    48 / 70 f
+STEP    49 / 70 f
+STEP    50 / 70 f
+STEP    51 / 70 f
+STEP    52 / 70 f
+STEP    53 / 70 f
+STEP    54 / 70 f
+STEP    55 / 70 f
+STEP    56 / 70 f
+STEP    57 / 70 f
+STEP    58 / 70 f
+STEP    59 / 70 f
+STEP    60 / 70 f
+STEP    61 / 70 f
+STEP    62 / 70 f
+STEP    63 / 70 f
+STEP    64 / 70 f
+STEP    65 / 70 f
+STEP    66 / 70 f
+STEP    67 / 70 f
+STEP    68 / 70 f
+STEP    69 / 70 f
+STEP    70 / 70 f
+done.
+
+disttbfast (aa) Version 7.158b alg=A, model=BLOSUM62, 1.53, -0.00, -0.00, noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ FFT-NS-1 (Very fast but very rough)
+ Progressive method (rough guide tree was used.)
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --legacygappenalty option.
+
+
+nseq =  15
+distance =  ktuples
+iterate =  0
+cycle =  1
+nthread = 0
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, +0.00
+
+tuplesize = 6, dorp = p
+
+
+Making a distance matrix ..
+
+    1 / 15
+   11 / 15
+done.
+
+Constructing a UPGMA tree ... 
+
+    0 / 15
+   10 / 15
+done.
+
+Progressive alignment ... 
+
+STEP     1 / 14 f
+STEP     2 / 14 f
+STEP     3 / 14 f
+STEP     4 / 14 f
+STEP     5 / 14 f
+STEP     6 / 14 f
+STEP     7 / 14 f
+STEP     8 / 14 f
+STEP     9 / 14 f
+STEP    10 / 14 f
+STEP    11 / 14 f
+STEP    12 / 14 f
+STEP    13 / 14 f
+STEP    14 / 14 f
+done.
+
+disttbfast (aa) Version 7.158b alg=A, model=BLOSUM62, 1.53, -0.00, -0.00, noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ FFT-NS-1 (Very fast but very rough)
+ Progressive method (rough guide tree was used.)
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --legacygappenalty option.
+
+
+nseq =  19
+distance =  ktuples
+iterate =  0
+cycle =  1
+nthread = 0
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, +0.00
+
+tuplesize = 6, dorp = p
+
+
+Making a distance matrix ..
+
+    1 / 19
+   11 / 19
+done.
+
+Constructing a UPGMA tree ... 
+
+    0 / 19
+   10 / 19
+done.
+
+Progressive alignment ... 
+
+STEP     1 / 18 f
+STEP     2 / 18 f
+STEP     3 / 18 f
+STEP     4 / 18 f
+STEP     5 / 18 f
+STEP     6 / 18 f
+STEP     7 / 18 f
+STEP     8 / 18 f
+STEP     9 / 18 f
+STEP    10 / 18 f
+STEP    11 / 18 f
+STEP    12 / 18 f
+STEP    13 / 18 f
+STEP    14 / 18 f
+STEP    15 / 18 f
+STEP    16 / 18 f
+STEP    17 / 18 f
+STEP    18 / 18 f
+done.
+
+disttbfast (aa) Version 7.158b alg=A, model=BLOSUM62, 1.53, -0.00, -0.00, noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ FFT-NS-1 (Very fast but very rough)
+ Progressive method (rough guide tree was used.)
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --legacygappenalty option.
+
+Use of uninitialized value $changes[0] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[1] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[2] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[0] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[1] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[0] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[2] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[2] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[1] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $_ in addition (+) at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 851.
+Use of uninitialized value $_ in addition (+) at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 851.
+Use of uninitialized value $_ in addition (+) at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 851.
+Use of uninitialized value $changes[0] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[1] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[2] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[0] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[1] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[0] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[2] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[2] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $changes[1] in sort at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 842.
+Use of uninitialized value $_ in addition (+) at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 851.
+Use of uninitialized value $_ in addition (+) at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 851.
+Use of uninitialized value $_ in addition (+) at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 851.
+Use of uninitialized value in numeric gt (>) at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 232.
+Use of uninitialized value in numeric gt (>) at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 232.
+Use of uninitialized value $prior in multiplication (*) at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 240.
+Use of uninitialized value in numeric gt (>) at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 232.
+Use of uninitialized value in numeric gt (>) at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 232.
+Use of uninitialized value $prior in multiplication (*) at /usr/local/lib/python3.6/site-packages/18Mid/antigen/predAV.pl line 240.
+
+nseq =  21
+distance =  ktuples
+iterate =  0
+cycle =  1
+nthread = 0
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, +0.00
+
+tuplesize = 6, dorp = p
+
+
+Making a distance matrix ..
+
+    1 / 21
+   11 / 21
+   21 / 21
+done.
+
+Constructing a UPGMA tree ... 
+
+    0 / 21
+   10 / 21
+done.
+
+Progressive alignment ... 
+
+STEP     1 / 20 f
+STEP     2 / 20 f
+STEP     3 / 20 f
+STEP     4 / 20 f
+STEP     5 / 20 f
+STEP     6 / 20 f
+STEP     7 / 20 f
+STEP     8 / 20 f
+STEP     9 / 20 f
+STEP    10 / 20 f
+STEP    11 / 20 f
+STEP    12 / 20 f
+STEP    13 / 20 f
+STEP    14 / 20 f
+STEP    15 / 20 f
+STEP    16 / 20 f
+STEP    17 / 20 f
+STEP    18 / 20 f
+STEP    19 / 20 f
+STEP    20 / 20 f
+done.
+
+disttbfast (aa) Version 7.158b alg=A, model=BLOSUM62, 1.53, -0.00, -0.00, noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ FFT-NS-1 (Very fast but very rough)
+ Progressive method (rough guide tree was used.)
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --legacygappenalty option.
+
+
+nseq =  25
+distance =  ktuples
+iterate =  0
+cycle =  1
+nthread = 0
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, +0.00
+
+tuplesize = 6, dorp = p
+
+
+Making a distance matrix ..
+
+    1 / 25
+   11 / 25
+   21 / 25
+done.
+
+Constructing a UPGMA tree ... 
+
+    0 / 25
+   10 / 25
+   20 / 25
+done.
+
+Progressive alignment ... 
+
+STEP     1 / 24 f
+STEP     2 / 24 f
+STEP     3 / 24 f
+STEP     4 / 24 f
+STEP     5 / 24 f
+STEP     6 / 24 f
+STEP     7 / 24 f
+STEP     8 / 24 f
+STEP     9 / 24 f
+STEP    10 / 24 f
+STEP    11 / 24 f
+STEP    12 / 24 f
+STEP    13 / 24 f
+STEP    14 / 24 f
+STEP    15 / 24 f
+STEP    16 / 24 f
+STEP    17 / 24 f
+STEP    18 / 24 f
+STEP    19 / 24 f
+STEP    20 / 24 f
+STEP    21 / 24 f
+STEP    22 / 24 f
+STEP    23 / 24 f
+STEP    24 / 24 f
+done.
+
+disttbfast (aa) Version 7.158b alg=A, model=BLOSUM62, 1.53, -0.00, -0.00, noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ FFT-NS-1 (Very fast but very rough)
+ Progressive method (rough guide tree was used.)
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --legacygappenalty option.
+
+/usr/local/lib/python3.6/site-packages/Bio/SubsMat/__init__.py:131: BiopythonDeprecationWarning: Bio.SubsMat has been deprecated, and we intend to remove it in a future release of Biopython. As an alternative, please consider using Bio.Align.substitution_matrices as a replacement, and contact the Biopython developers if you still need the Bio.SubsMat module.
+  BiopythonDeprecationWarning,
