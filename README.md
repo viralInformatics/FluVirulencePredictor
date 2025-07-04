@@ -1,6 +1,6 @@
 # 🧬 FluVirulencePredictor: Influenza Virulence Prediction Tool
 
-[![Python](./README.assets/Python-3.6+-blue.svg+xml)](https://python.org/) [![Diamond](./README.assets/Diamond-2.1.11-orange.svg+xml)](https://github.com/bbuchfink/diamond)
+[![Python](https://img.shields.io/badge/Python-3.6+-blue.svg)](https://python.org/) [![Diamond](https://img.shields.io/badge/Diamond-2.1.11-orange.svg)](https://github.com/bbuchfink/diamond)
 
 `FluVirulencePredictor` (`fluvp`) is a comprehensive command-line utility for influenza sequence annotation, biomarker extraction, and virulence prediction. The tool processes individual FASTA files or entire directories containing influenza sequence data, utilizing machine learning models for virulence prediction.
 
