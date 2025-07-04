@@ -162,7 +162,7 @@ fluvp extract -i standardized_sequences/ -a annotation_results/ -o virulence_mar
 fluvp predv -i virulence_markers/ -t 0.5 -o prediction_results/ -p experiment1
 
 # Or predicting from a specific marker file
-fluvp predv -i virulence_markers/strain1_test1_markers.csv -t 0.5 -o prediction_results/ -p experiment1
+fluvp predv -i virulence_markers/strain1_isolate1_markers.csv -t 0.5 -o prediction_results/ -p experiment1
 ```
 
 ------
@@ -177,7 +177,7 @@ fluvp predv -i virulence_markers/strain1_test1_markers.csv -t 0.5 -o prediction_
 
 ### Marker Extraction Output
 
-- CSV files with extracted markers containing key columns: `Strain ID`, `Virulence Markers`, `Protein Type`,`, `Source`, `PMID` (additional supplementary columns may be included)
+- CSV files with extracted markers containing key columns: `Strain ID`, `Virulence Markers`, `Protein Type`, `Phenotypic Consequences`, `Source`, `PMID` (additional supplementary columns may be included)
 - Comprehensive marker annotation tables with detailed molecular information
 
 ### Prediction Output
